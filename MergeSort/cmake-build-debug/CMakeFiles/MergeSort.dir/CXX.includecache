@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/zhaoziwei/CLionProjects/MergeSort/InsertionSort.h
+
+/Users/zhaoziwei/CLionProjects/MergeSort/MergeSort.h
+iostream
+-
+SortTestHelper.h
+/Users/zhaoziwei/CLionProjects/MergeSort/SortTestHelper.h
+InsertionSort.h
+/Users/zhaoziwei/CLionProjects/MergeSort/InsertionSort.h
+
+/Users/zhaoziwei/CLionProjects/MergeSort/SortTestHelper.h
+iostream
+-
+ctime
+-
+cassert
+-
+
+/Users/zhaoziwei/CLionProjects/MergeSort/main.cpp
+iostream
+-
+SortTestHelper.h
+/Users/zhaoziwei/CLionProjects/MergeSort/SortTestHelper.h
+InsertionSort.h
+/Users/zhaoziwei/CLionProjects/MergeSort/InsertionSort.h
+MergeSort.h
+/Users/zhaoziwei/CLionProjects/MergeSort/MergeSort.h
+
