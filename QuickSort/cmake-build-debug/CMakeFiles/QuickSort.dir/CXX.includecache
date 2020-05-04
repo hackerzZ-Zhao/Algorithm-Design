@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/zhaoziwei/CLionProjects/QuickSort/InsertionSort.h
+
+/Users/zhaoziwei/CLionProjects/QuickSort/MergeSort.h
+iostream
+-
+SortTestHelper.h
+/Users/zhaoziwei/CLionProjects/QuickSort/SortTestHelper.h
+InsertionSort.h
+/Users/zhaoziwei/CLionProjects/QuickSort/InsertionSort.h
+
+/Users/zhaoziwei/CLionProjects/QuickSort/QuickSort.h
+iostream
+-
+MergeSort.h
+/Users/zhaoziwei/CLionProjects/QuickSort/MergeSort.h
+SortTestHelper.h
+/Users/zhaoziwei/CLionProjects/QuickSort/SortTestHelper.h
+
+/Users/zhaoziwei/CLionProjects/QuickSort/SortTestHelper.h
+iostream
+-
+ctime
+-
+cassert
+-
+
+/Users/zhaoziwei/CLionProjects/QuickSort/main.cpp
+iostream
+-
+MergeSort.h
+/Users/zhaoziwei/CLionProjects/QuickSort/MergeSort.h
+SortTestHelper.h
+/Users/zhaoziwei/CLionProjects/QuickSort/SortTestHelper.h
+QuickSort.h
+/Users/zhaoziwei/CLionProjects/QuickSort/QuickSort.h
+
